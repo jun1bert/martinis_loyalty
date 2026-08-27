@@ -227,36 +227,12 @@ class _LoginScreenState extends State<LoginScreen> {
               ),
               child: Column(
                 children: [
-                  const Text(
-                    'MARTINIS',
-                    style: TextStyle(
-                      fontFamily: 'serif',
-                      fontSize: 32,
-                      letterSpacing: 6,
-                      color: Color(0xFF493B32),
-                    ),
-                  ),
-
-                  const SizedBox(height: 6),
-
-                  const Text(
-                    '& MANICURES',
-                    style: TextStyle(
-                      fontSize: 12,
-                      letterSpacing: 5,
-                      color: Color(0xFFA48D78),
-                    ),
-                  ),
-
-                  const SizedBox(height: 12),
-
-                  const Text(
-                    'BEAUTY & WELLNESS',
-                    style: TextStyle(
-                      fontSize: 10,
-                      letterSpacing: 3,
-                      color: Color(0xFF8B796A),
-                    ),
+                  Image.asset(
+                    'assets/images/martinis-logo.png',
+                    width: 320,
+                    fit: BoxFit.contain,
+                    semanticLabel:
+                        'Martinis and Manicures logo',
                   ),
 
                   const SizedBox(height: 50),
