@@ -7,7 +7,7 @@ import 'package:qr_flutter/qr_flutter.dart';
 
 const storage = FlutterSecureStorage();
 
-const String baseUrl = 'http://10.0.2.2:8000/api';
+const String baseUrl = 'https://loyalty.martinis-and-manicures.com/api';
 
 void main() {
   runApp(const MartinisLoyaltyApp());
